@@ -1,6 +1,6 @@
 {
   "name": "zvive/ui",
-  "description": "PHP CS Fixer w/ additional fixers based off of permafrost-dev/phpcsfixer-preset",
+  "description": "UI Framework for Laravel",
   "type": "library",
   "keywords": [
     "laravel",
@@ -18,19 +18,16 @@
       "email": "patrickwcurl@gmail.com"
     }
   ],
-  "bin": [
-    "bin/zv-fixer"
-  ],
   "require": {
     "php": "^8.1",
     "ext-json": "*",
     "illuminate/collections": "^8.0|^9.0",
     "illuminate/support": "^8.0|^9.0",
-    "symfony/console": "^5.0||^6.0"
+    "symfony/console": "^5.0|^6.0"
   },
   "require-dev": {
     "friendsofphp/php-cs-fixer": "^3.0",
-    "kubawerlos/php-cs-fixer-custom-fixers": "^3.6",
+    "kubawerlos/php-cs-fixer-custom-fixers": "^v3.7.0",
     "nunomaduro/larastan": "^1.0",
     "orchestra/testbench": "^7",
     "phpstan/extension-installer": "^1.1",
@@ -58,9 +55,6 @@
         "extension.neon"
       ]
     }
-  },
-  "suggest": {
-    "friendsofphp/php-cs-fixer": "Required to use the phpcsfixer component (^2.0)."
   },
   "scripts": {
     "test": [
