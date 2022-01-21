@@ -1,5 +1,5 @@
 {
-  "name": "zvive/fixer",
+  "name": "zvive/ui",
   "description": "PHP CS Fixer w/ additional fixers based off of permafrost-dev/phpcsfixer-preset",
   "type": "library",
   "keywords": [
@@ -9,8 +9,8 @@
   ],
   "license": "MIT",
   "support": {
-    "issues": "https://github.com/zvive/fixer/issues",
-    "source": "https://github.com/zvive/fixer"
+    "issues": "https://github.com/zvive/ui/issues",
+    "source": "https://github.com/zvive/ui"
   },
   "authors": [
     {
@@ -44,12 +44,12 @@
   },
   "autoload": {
     "psr-4": {
-      "Zvive\\Fixer\\": "src/"
+      "Zvive\\Ui\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Zvive\\Fixer\\Tests\\Unit\\": "tests/"
+      "Zvive\\Ui\\Tests\\": "tests/"
     }
   },
   "extra": {
